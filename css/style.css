@@ -153,6 +153,10 @@ header, footer{
     .tel-icon{
         margin-top: 15px;
     }
+
+    .section-title{
+            margin-top: 20px;
+    }
 }
 
 /* menu */
@@ -1161,9 +1165,10 @@ display: contents;
     }
 
     .info-parking {
-         padding: 38px 40px;
-    margin: 0% 18%;
+    padding: 38px 40px;
+    /* margin: 0% 18%; */
     width: 70%;
+    margin: 0 auto;
 }
 }
 
