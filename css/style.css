@@ -1346,7 +1346,6 @@ input[name="slide"] {
 .swiper {
     width: 70%;
     margin: 0 auto;
-    height: 70vh;
 }
 
 .swiper-wrapper img {
@@ -1357,6 +1356,7 @@ input[name="slide"] {
 .swiper-button-prev,
 .swiper-button-next {
     color: var(--yellow);
+    
 }
 
 .slider-title {
