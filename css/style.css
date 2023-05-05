@@ -176,7 +176,7 @@ header, footer{
 }
 
 .menu-link:hover{
-    color: var(--dark-gray);
+    color: var(--yellow);
 }
 
 /* menu adaptive*/
@@ -1147,12 +1147,24 @@ display: contents;
         font-size: 26px;
         margin: 1.5em 1em;
     }
+
+    .info-parking {
+         padding: 38px 40px;
+    margin: 0% 18%;
+    width: 70%;
+}
 }
 
 @media (max-width: 450px) {
     .info-item i{
         display: none;
     }
+
+    .info-parking {
+         padding: 38px 40px;
+    margin: 0% 18%;
+    width: 70%;
+}
 }
 
 /* портфолио */
@@ -1573,6 +1585,12 @@ border-color: var(--dark-gray);
     font-size: 16px;
 }
 
+    .booking__forma{
+        min-width: 100%;
+        padding: 2em 1em 2em;
+        display: block;
+    }
+
 .order{
     display: flex;
     justify-content: center;
@@ -1585,11 +1603,32 @@ border-color: var(--dark-gray);
         flex-direction: column;
         margin-left: 2em;
     }
+    .scheme{
+        max-width: 100%;
+    }
+
+        .form-img{
+        display: none;
+    }
+.form__contacts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1em;
+    }
 
     .booking__form{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         padding: 1em;
+    }
+
+        .booking__forma{
+        min-width: 100%;
+        padding: 2em 1em 2em;
+        display: block;
     }
 
 }
