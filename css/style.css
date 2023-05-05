@@ -1439,6 +1439,7 @@ input[name="slide"] {
 .order{
     display: flex;
     justify-content: flex-start;
+    margin-top: 20px;
 }
 
 .booking__form input, 
